@@ -34,7 +34,7 @@ if [[ "$OS" == "debian" ]]; then
 		exit 4
 	fi
 elif [[ "$OS" == "ubuntu" ]]; then
-	if [[ $VERSION -lt 22 ]]; then
+	if [[ $VERSION -lt 20 ]]; then
 		echo 'Error: Your Ubuntu version is not supported!'
 		exit 5
 	fi
